@@ -1,0 +1,21 @@
+{
+  "author": "Concentra Analytics",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "mocha": "^3.2.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^2.2.1"
+  },
+  "keywords": [
+    "indexeddb",
+    "functional",
+    "monad",
+    "pure"
+  ],
+  "main": "index.js",
+  "name": "local-storage",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "version": "0.1.0"
+}
