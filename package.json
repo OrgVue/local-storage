@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.0.1",
+    "groc": "^0.8.0",
     "mocha": "^3.2.0",
     "raw-loader": "^0.5.1",
     "webpack": "^2.2.1"
@@ -20,6 +21,7 @@
   "main": "src/store.js",
   "name": "local-storage",
   "scripts": {
+    "doc": "groc ./src/**/*.js",
     "webpack": "webpack"
   },
   "version": "0.1.0"
