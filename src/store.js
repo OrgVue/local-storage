@@ -8,7 +8,6 @@
 
 
 // Imports.
-const leveljs = require("level-js")
 const levelup = require("levelup")
 const Reader = require("./Reader.js")
 const Task = require("./Task.js")
@@ -35,7 +34,7 @@ const del = key => ensureDB(Reader(env =>
 const ensureDB = x => Reader.get.map(env =>
   Task((rej, res) => {
     if (!env._db) {
-      levelup(env.name, { db: leveljs }, (err, db) => {
+      levelup(env.name, { db: env.db }, (err, db) => {
         if (err) {
           rej(DBError(err))
           return          

@@ -11,12 +11,13 @@
     "webpack": "^2.2.1"
   },
   "keywords": [
-    "indexeddb",
+    "levelup",
     "functional",
     "monad",
-    "pure"
+    "pure",
+    "leveldb"
   ],
-  "main": "index.js",
+  "main": "src/store.js",
   "name": "local-storage",
   "scripts": {
     "webpack": "webpack"
