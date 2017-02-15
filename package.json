@@ -18,6 +18,7 @@
     "pure",
     "leveldb"
   ],
+  "license": "MIT",
   "main": "src/store.js",
   "name": "local-storage",
   "scripts": {
