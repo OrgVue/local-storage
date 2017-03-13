@@ -4,7 +4,7 @@ const assert = require("assert")
 const leveljs = require("level-js")
 const store = require("../src/store.js")
 
-const env = { name: "orgvue", db: leveljs }
+const env = { name: "mydatabase", db: leveljs }
 
 describe("store", function() {
   describe("#del", function() {
