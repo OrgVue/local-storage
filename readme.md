@@ -16,4 +16,4 @@ store.put("mykey", "myvalue").run(env).fork(
 ```
 
 ## Todo
-- Use natural transforms or free monad to rewrite tests using composition
+- Use natural transformations or free monad to rewrite tests using composition
