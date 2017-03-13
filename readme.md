@@ -14,3 +14,6 @@ store.put("mykey", "myvalue").run(env).fork(
   () => console.log("Success!")
 )
 ```
+
+## Todo
+- Use natural transforms or free monad to rewrite tests using composition
