@@ -25,7 +25,7 @@ const DBError = (message, key) => ({
 })
 
 // ```
-// del :: String -> Reader DB (task DBError ())
+// del :: String -> Reader DB (Task DBError ())
 // ```
 const del = key => ensureDB(Reader(env =>
   Task((rej, res) => {
