@@ -12,6 +12,6 @@ const Task = fork => ({
   // ```
   // bind :: (a -> Task e b) -> Task e a -> Task e b
   // ```
-  bind: bind: f => Task((rej, res) => fork(rej, x => f(x).fork(rej, res)))
+  bind: f => Task((rej, res) => fork(rej, x => f(x).fork(rej, res)))
 
 module.exports = Task
